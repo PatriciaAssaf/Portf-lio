@@ -64,6 +64,7 @@
 
     <!-- Seção de Habilidades -->
     <section class="habilidades" id="habilidades">
+        <div class="habilidades__container">
         <h2 class="habilidades__titulo">Habilidades</h2>
         <ul class="habilidades__lista">
             <li class="habilidades__elemento">
@@ -84,14 +85,15 @@
                 <img class="habilidades__icone" src="assets/icons8-css3-100.png" alt="CSS">
                 <p class="habilidades__nome">CSS</p>
             </li>
-         
         </ul>
+        </div>
     </section>
 
     <hr>
 
     <!-- Seção de Software -->
     <section class="Software" id="software">
+        <div class="software__container">
         <h2 class="software__titulo">Software</h2>
         <ul class="software__lista">
             <li class="software__elemento">
@@ -118,12 +120,14 @@
                 <p class="software__nome">Illustrator</p>
             </li>
         </ul>
+        </div>
     </section> 
 
     <hr>
 
     <!-- Seção de Formação Acadêmica -->
     <section class="formacao" id="formacao">
+        <div class="formacao__container">
         <h2 class="formacao__titulo">Formação Acadêmica</h2>
         <ul class="formacao__lista">
             <li class="formacao__elemento">
@@ -133,9 +137,9 @@
                     <p class="formacao__detalhe">2026 - Anhanguera</p>
                 </div>
             </li>
-           
-            
+                      
         </ul>
+         </div>
     </section>
 
     <hr>
@@ -144,13 +148,38 @@
     <section class="projetos" id="projetos">
         <h2 class="projetos__titulo">Projetos</h2>
         <div class="projetos__conteiner">
-            <h3 class="projetos__nome">Título da Experiência</h3>
-            <p class="projetos__descricao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
-        </div>
-        <div class="projetos__conteiner">
-            <h3 class="projetos__nome">Título da Experiência</h3>
-            <p class="projetos__descricao">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
-        </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                  <img src="imagem-projeto1.jpg" alt="Decodificador de texto" class="project-image">
+                  <h3>Decodificador de texto</h3>
+                  <p>Challenge Alura Codificador</p>
+                  <div class="buttons">
+                    <a href="https://github.com/usuario/decodificador" target="_blank" class="btn">Repositório</a>
+                    <a href="https://usuario.github.io/decodificador" target="_blank" class="btn demo">Ver demo</a>
+                  </div>
+                </div>
+              
+                <div class="project-card">
+                  <img src="filmemood.png" alt="FilmêMood" class="project-image">
+                  <h3>FilmêMood</h3>
+                  <p>Challenge Oracle</p>
+                  <div class="buttons">
+                    <a href="https://github.com/usuario/jogo-forca" target="_blank" class="btn">Repositório</a>
+                    <a href="https://usuario.github.io/jogo-forca" target="_blank" class="btn demo">Ver demo</a>
+                  </div>
+                </div>
+              
+                <div class="project-card">
+                  <img src="imagem-projeto3.jpg" alt="Outro Projeto" class="project-image">
+                  <h3>Outro Projeto</h3>
+                  <p>Descrição do Projeto</p>
+                  <div class="buttons">
+                    <a href="https://github.com/usuario/outro-projeto" target="_blank" class="btn">Repositório</a>
+                    <a href="https://usuario.github.io/outro-projeto" target="_blank" class="btn demo">Ver demo</a>
+                  </div>
+                </div>
+              </div>
+            
     </section>
 
     <hr>
