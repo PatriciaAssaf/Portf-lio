@@ -44,6 +44,16 @@ body {
     margin-left: 10px; /* Garante um pequeno espaçamento caso o logo esteja à esquerda */
 }
 
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #333; /* Cor da linha */
+    margin: 10px 0; /* Espaçamento acima e abaixo da linha */
+    width: 50%; /* Ajuste a largura da linha */
+    margin-left: auto; /* Centraliza a linha */
+    margin-right: auto; /* Centraliza a linha */
+  }
+
 /* Navegação */
 .navegacao {
     text-align: center;
