@@ -15,7 +15,7 @@
 /* Fonte padrão */
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f5f5f5;
     color: #333;
 }
 
@@ -157,35 +157,44 @@ hr {
 }
 
 /* Seção sobre mim */
+
+.sobre-mim__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px; /* Aumentando o padding para um espaçamento maior */
+    max-width: 1100px; /* Max-width para limitar o tamanho máximo do container */
+    margin: 0 auto; /* Centralizando o container */
+}
+
 .sobre-mim {
-    background-color: #fff;
+    background-color: #f5f5f5;
     padding: 40px;
     text-align: center;
 }
 
 .sobre-mim__titulo {
-    font-family: "Delius", cursive;
-    font-size: 28px;
+    font-family: "Alumni Sans", serif;
+    font-weight: 400;
+    font-size: 42px;
     margin-bottom: 20px;
 }
 
 .sobre-mim__texto {
-    font-size: 18px;
+    font-family: "Scope One", serif;
+    font-size: 20px;
+    line-height: 150%;
     color: #666;
     margin: 0 auto;
     max-width: 1100px;
     text-align: center;
 }
 
-/* .sobre-mim__assinatura {
-    width: 120px;
-    height: auto;
-    margin-top: 20px;
-} */
-
 /* Seção habilidades */
 .habilidades {
-    background-color: #fff;
+    background-color: #f5f5f5;
     padding: 40px;
 }
 
@@ -244,7 +253,7 @@ hr {
 
 /* Seção Formação Acadêmica */
 .formacao {
-    background-color: #eaeaea;
+    background-color: #f5f5f5;
     padding: 40px;
 }
 
