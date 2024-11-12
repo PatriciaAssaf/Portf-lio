@@ -1,0 +1,281 @@
+:root {
+    --azul-turquesa: #1abc9c; /* Definindo a cor azul turquesa */
+}
+
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte padrão */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #1abc9c;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__logo-titulo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* Faz com que o nome ocupe o máximo de espaço possível à esquerda */
+}
+
+.cabecalho__logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px; /* Adiciona um espaçamento entre o logo e o nome */
+}
+
+.cabecalho__titulo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px; /* Garante um pequeno espaçamento caso o logo esteja à esquerda */
+}
+
+/* Navegação */
+.navegacao {
+    text-align: center;
+}
+
+.navegacao__lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navegacao__elemento {
+    margin: 0 20px;
+}
+
+.navegacao__elemento a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navegacao__elemento a:hover {
+    color: #333; 
+}
+
+.sobre-mim__titulo, 
+.habilidades__titulo, 
+.formacao__titulo, 
+.projetos__titulo,
+.contato__titulo {
+    color: var(--azul-turquesa);
+}
+
+.projetos__conteiner {
+    border-left: 4px solid var(--azul-turquesa); /* Linha azul turquesa à esquerda dos projetos */
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Apresentação */
+
+.apresentacao__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px; /* Aumentando o padding para um espaçamento maior */
+    max-width: 1200px; /* Max-width para limitar o tamanho máximo do container */
+    margin: 0 auto; /* Centralizando o container */
+}
+
+.apresentacao {
+    background-color: #ecf8f6;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.apresentacao__titulo {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.apresentacao__subtitulo {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.redes {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.redes__elemento {
+    margin: 0 10px;
+}
+
+.redes__elemento a {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.redes__elemento a:hover {
+    color: var(--azul-turquesa); /* Azul turquesa nos links das redes sociais */
+}
+
+.redes__elemento img {
+    margin-left: 8px;
+    width: 15px;
+}
+
+/* Seção sobre mim */
+.sobre-mim {
+    background-color: #eaeaea;
+    padding: 40px;
+    text-align: center;
+}
+
+.sobre-mim__titulo {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.sobre-mim__texto {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.sobre-mim__assinatura {
+    width: 120px;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Seção habilidades */
+.habilidades {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.habilidades__titulo {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.habilidades__lista {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.habilidades__elemento {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.habilidades__icone {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Seção Formação Acadêmica */
+.formacao {
+    background-color: #eaeaea;
+    padding: 40px;
+}
+
+.formacao__titulo {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.formacao__lista {
+    list-style: none;
+}
+
+.formacao__elemento {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.formacao__icone {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.formacao__nome {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formacao__detalhe {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Seção Contato */
+.contato {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.contato__titulo {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contato__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato__campo {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato__campo--textarea {
+    height: 150px;
+}
+
+.contato__botao {
+    background-color: var(--azul-turquesa);
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.contato__botao:hover {
+    background-color: #16a085;
+}
