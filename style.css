@@ -332,12 +332,21 @@ hr {
 .projetos-grid {
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: normal;
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 60px 20px;
     flex-wrap: wrap;
+  }
+
+  .projetos__titulo {
+    font-family: "Alumni Sans", serif;
+    font-weight: 400;
+    font-size: 42px;
+    /* margin-bottom: 20px; */
+    text-align: center; 
+    margin-top: 80px;
   }
   
   .projetos-card {
@@ -353,7 +362,7 @@ hr {
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   .projetos-card:hover {
     transform: translateY(-5px);
   }
